@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.menuprincipal{
+    width: 100%;
+}
+/*INICIO1*/
+.contenedor1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/.jpg);
+    background-image: url(../imagenes/4.jpg);
+    background-size: cover;
+    
+    
+}
+.cabecera{
+  background:linear-gradient(rgba(5,7,12,0.65), rgba(5,7,12,0.65)) ; 
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+}
+.logo img{
+    width: 300px;
+    height: 150px;
+    margin-top: 1px;
+}
+.logo{
+width: 30%;
+display: flex;
+justify-content: end;
+
+}
+.navegar{
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    color: white;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.link:hover{
+    background-color: rgb(199, 189, 49);
+    color: white;
+}
+.presentacion{
+    width: 100%;
+    height: calc(100vh-150px);
+    background:linear-gradient(rgba(5,7,12,0.65), rgba(5,7,12,0.65)) ; 
+}
+.escritura{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    padding: 100px;
+    color: white;
+
+
+}
+.escritura h1{
+   font-size: 100px; 
+
+
+}
+.escritura p{
+    font-size: 26px;
+    margin-top: 20px;
+}
+/*FIN1*/
+/*INICIO2*/
+.contenedor2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagenes/banner2.jpg);
+    background-size: cover; 
+}
+.titulo2{
+    width: 100%;
+    padding-bottom: 20px;
+    background:linear-gradient(rgba(5,7,12,0.65), rgba(5,7,12,0.65)) ;
+    color: white;
+}
+
+.titulo2 h2{
+        text-align: center;
+        font-size: 100px;
+        
+}
+.fotos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:linear-gradient(rgba(5,7,12,0.65), rgba(5,7,12,0.65)) ;
+}
+.foto img{
+    width: 300px;
+    height: 200px;
+
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto h3{
+    margin: 10px 0;
+    color: white;
+    
+}
+
+.pie{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background:linear-gradient(rgba(5,7,12,0.80), rgba(5,7,12,0.80)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie p{
+    color: gray;
+    
+}
+
+
